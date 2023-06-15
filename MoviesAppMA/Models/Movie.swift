@@ -10,6 +10,7 @@ import SwiftData
 
 @Model
 final class Movie {
+    
     var title: String
     var year: Int
     
