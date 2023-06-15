@@ -15,6 +15,7 @@ struct MovieDetailScreen: View {
     
     @State private var title: String = ""
     @State private var year: Int?
+    @State private var showReviewScreen: Bool = false
     
     var body: some View {
         Form {
@@ -33,6 +34,16 @@ struct MovieDetailScreen: View {
                 }
             }
             .buttonStyle(.borderless)
+            
+            Section("Reviews") {
+                Button(action: {
+                    
+                }, label: {
+                    Image(systemName: "plus")
+                        .frame(maxWidth: .infinity, alignment: .trailing)
+                })
+            }
+            
         }
         .onAppear {
             title = movie.title

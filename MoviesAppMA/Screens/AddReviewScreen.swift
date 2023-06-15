@@ -12,6 +12,8 @@ struct AddReviewScreen: View {
     let movie: Movie
     
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.modelContext) private var context
+    
     @State private var subject: String = ""
     @State private var description: String = ""
     
@@ -34,6 +36,17 @@ struct AddReviewScreen: View {
             
             ToolbarItem(placement: .topBarTrailing) {
                 Button("Save") {
+                    
+                    let review = Review(subject: subject, body: description)
+                    review.movie = movie
+                    context.insert(review)
+                    
+                    do {
+                        try context.save()
+                        movie.reviews?.append(review)
+                    } catch {
+                        print(error.localizedDescription)
+                    }
                     
                 }
                 .disabled(!isFormValid)
