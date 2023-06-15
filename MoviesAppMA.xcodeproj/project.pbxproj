@@ -11,7 +11,9 @@
 		74AC08332A3A6AA900230FA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC08322A3A6AA900230FA1 /* ContentView.swift */; };
 		74AC08352A3A6AAB00230FA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AC08342A3A6AAB00230FA1 /* Assets.xcassets */; };
 		74AC08382A3A6AAB00230FA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AC08372A3A6AAB00230FA1 /* Preview Assets.xcassets */; };
-		74AC083A2A3A6AAB00230FA1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC08392A3A6AAB00230FA1 /* Item.swift */; };
+		74AC08412A3B6A8C00230FA1 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC08402A3B6A8C00230FA1 /* Movie.swift */; };
+		74AC08452A3B6BDC00230FA1 /* AddMovieScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC08442A3B6BDC00230FA1 /* AddMovieScreen.swift */; };
+		74AC08482A3B6CB000230FA1 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC08472A3B6CB000230FA1 /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +22,9 @@
 		74AC08322A3A6AA900230FA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74AC08342A3A6AAB00230FA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74AC08372A3A6AAB00230FA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		74AC08392A3A6AAB00230FA1 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		74AC08402A3B6A8C00230FA1 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		74AC08442A3B6BDC00230FA1 /* AddMovieScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMovieScreen.swift; sourceTree = "<group>"; };
+		74AC08472A3B6CB000230FA1 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +57,12 @@
 		74AC082F2A3A6AA900230FA1 /* MoviesAppMA */ = {
 			isa = PBXGroup;
 			children = (
+				74AC08462A3B6C9A00230FA1 /* Extensions */,
+				74AC08432A3B6BB800230FA1 /* Screens */,
+				74AC08422A3B6A9100230FA1 /* Models */,
 				74AC08302A3A6AA900230FA1 /* MoviesAppMAApp.swift */,
 				74AC08322A3A6AA900230FA1 /* ContentView.swift */,
 				74AC08342A3A6AAB00230FA1 /* Assets.xcassets */,
-				74AC08392A3A6AAB00230FA1 /* Item.swift */,
 				74AC08362A3A6AAB00230FA1 /* Preview Content */,
 			);
 			path = MoviesAppMA;
@@ -68,6 +74,30 @@
 				74AC08372A3A6AAB00230FA1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		74AC08422A3B6A9100230FA1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74AC08402A3B6A8C00230FA1 /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74AC08432A3B6BB800230FA1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				74AC08442A3B6BDC00230FA1 /* AddMovieScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		74AC08462A3B6C9A00230FA1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				74AC08472A3B6CB000230FA1 /* String+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74AC08482A3B6CB000230FA1 /* String+Ext.swift in Sources */,
 				74AC08332A3A6AA900230FA1 /* ContentView.swift in Sources */,
-				74AC083A2A3A6AAB00230FA1 /* Item.swift in Sources */,
+				74AC08452A3B6BDC00230FA1 /* AddMovieScreen.swift in Sources */,
+				74AC08412A3B6A8C00230FA1 /* Movie.swift in Sources */,
 				74AC08312A3A6AA900230FA1 /* MoviesAppMAApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

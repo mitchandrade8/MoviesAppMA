@@ -13,8 +13,10 @@ struct MoviesAppMAApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                AddMovieScreen()
+            }
         }
-        .modelContainer(for: Item.self)
+        .modelContainer(for: [Movie.self])
     }
 }
