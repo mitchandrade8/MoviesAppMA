@@ -32,6 +32,7 @@ struct MovieDetailScreen: View {
                     print(error.localizedDescription)
                 }
             }
+            .buttonStyle(.borderless)
         }
         .onAppear {
             title = movie.title
