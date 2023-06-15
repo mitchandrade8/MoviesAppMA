@@ -46,6 +46,8 @@ struct AddMovieScreen: View {
                         print(error.localizedDescription)
                     }
                     
+                    dismiss()
+                    
                 }.disabled(!isFormValid)
             }
         }

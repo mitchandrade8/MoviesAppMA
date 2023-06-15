@@ -14,6 +14,7 @@
 		74AC08412A3B6A8C00230FA1 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC08402A3B6A8C00230FA1 /* Movie.swift */; };
 		74AC08452A3B6BDC00230FA1 /* AddMovieScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC08442A3B6BDC00230FA1 /* AddMovieScreen.swift */; };
 		74AC08482A3B6CB000230FA1 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC08472A3B6CB000230FA1 /* String+Ext.swift */; };
+		74AC084A2A3B719300230FA1 /* MovieListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC08492A3B719300230FA1 /* MovieListScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		74AC08402A3B6A8C00230FA1 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		74AC08442A3B6BDC00230FA1 /* AddMovieScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMovieScreen.swift; sourceTree = "<group>"; };
 		74AC08472A3B6CB000230FA1 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		74AC08492A3B719300230FA1 /* MovieListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				74AC08442A3B6BDC00230FA1 /* AddMovieScreen.swift */,
+				74AC08492A3B719300230FA1 /* MovieListScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			files = (
 				74AC08482A3B6CB000230FA1 /* String+Ext.swift in Sources */,
 				74AC08332A3A6AA900230FA1 /* ContentView.swift in Sources */,
+				74AC084A2A3B719300230FA1 /* MovieListScreen.swift in Sources */,
 				74AC08452A3B6BDC00230FA1 /* AddMovieScreen.swift in Sources */,
 				74AC08412A3B6A8C00230FA1 /* Movie.swift in Sources */,
 				74AC08312A3A6AA900230FA1 /* MoviesAppMAApp.swift in Sources */,
