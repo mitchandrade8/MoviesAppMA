@@ -18,6 +18,7 @@
 		74AC084D2A3B7B1E00230FA1 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC084C2A3B7B1E00230FA1 /* MovieListView.swift */; };
 		74AC084F2A3B818900230FA1 /* MovieDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC084E2A3B818900230FA1 /* MovieDetailScreen.swift */; };
 		74AC08512A3BB94F00230FA1 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC08502A3BB94F00230FA1 /* Review.swift */; };
+		74AC08532A3BBC8700230FA1 /* AddReviewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC08522A3BBC8700230FA1 /* AddReviewScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		74AC084C2A3B7B1E00230FA1 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
 		74AC084E2A3B818900230FA1 /* MovieDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailScreen.swift; sourceTree = "<group>"; };
 		74AC08502A3BB94F00230FA1 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		74AC08522A3BBC8700230FA1 /* AddReviewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				74AC08442A3B6BDC00230FA1 /* AddMovieScreen.swift */,
 				74AC08492A3B719300230FA1 /* MovieListScreen.swift */,
 				74AC084E2A3B818900230FA1 /* MovieDetailScreen.swift */,
+				74AC08522A3BBC8700230FA1 /* AddReviewScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				74AC084F2A3B818900230FA1 /* MovieDetailScreen.swift in Sources */,
 				74AC08412A3B6A8C00230FA1 /* Movie.swift in Sources */,
 				74AC08312A3A6AA900230FA1 /* MoviesAppMAApp.swift in Sources */,
+				74AC08532A3BBC8700230FA1 /* AddReviewScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

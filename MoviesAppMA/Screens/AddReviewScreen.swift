@@ -8,11 +8,40 @@
 import SwiftUI
 
 struct AddReviewScreen: View {
+    
+    let movie: Movie
+    
+    @Environment(\.dismiss) private var dismiss
+    @State private var subject: String = ""
+    @State private var description: String = ""
+    
+    private var isFormValid: Bool {
+        !subject.isEmptyOrWhiteSpace && !description.isEmptyOrWhiteSpace
+    }
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Form {
+            TextField("Subject", text: $subject)
+            TextField("Body", text: $description)
+        }
+        .navigationTitle("Add Review")
+        .toolbar {
+            ToolbarItem(placement: .topBarLeading) {
+                Button("Close") {
+                    dismiss()
+                }
+            }
+            
+            ToolbarItem(placement: .topBarTrailing) {
+                Button("Save") {
+                    
+                }
+                .disabled(!isFormValid)
+            }
+        }
     }
 }
 
-#Preview {
-    AddReviewScreen()
-}
+//#Preview {
+//    AddReviewScreen()
+//}
