@@ -15,6 +15,7 @@
 		74AC08452A3B6BDC00230FA1 /* AddMovieScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC08442A3B6BDC00230FA1 /* AddMovieScreen.swift */; };
 		74AC08482A3B6CB000230FA1 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC08472A3B6CB000230FA1 /* String+Ext.swift */; };
 		74AC084A2A3B719300230FA1 /* MovieListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC08492A3B719300230FA1 /* MovieListScreen.swift */; };
+		74AC084D2A3B7B1E00230FA1 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC084C2A3B7B1E00230FA1 /* MovieListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		74AC08442A3B6BDC00230FA1 /* AddMovieScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMovieScreen.swift; sourceTree = "<group>"; };
 		74AC08472A3B6CB000230FA1 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		74AC08492A3B719300230FA1 /* MovieListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListScreen.swift; sourceTree = "<group>"; };
+		74AC084C2A3B7B1E00230FA1 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		74AC082F2A3A6AA900230FA1 /* MoviesAppMA */ = {
 			isa = PBXGroup;
 			children = (
+				74AC084B2A3B7B0200230FA1 /* Views */,
 				74AC08462A3B6C9A00230FA1 /* Extensions */,
 				74AC08432A3B6BB800230FA1 /* Screens */,
 				74AC08422A3B6A9100230FA1 /* Models */,
@@ -101,6 +104,14 @@
 				74AC08472A3B6CB000230FA1 /* String+Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		74AC084B2A3B7B0200230FA1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74AC084C2A3B7B1E00230FA1 /* MovieListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74AC08482A3B6CB000230FA1 /* String+Ext.swift in Sources */,
+				74AC084D2A3B7B1E00230FA1 /* MovieListView.swift in Sources */,
 				74AC08332A3A6AA900230FA1 /* ContentView.swift in Sources */,
 				74AC084A2A3B719300230FA1 /* MovieListScreen.swift in Sources */,
 				74AC08452A3B6BDC00230FA1 /* AddMovieScreen.swift in Sources */,
